@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace FmdlTool
-{
+
+
     public static class Hashing
     {
         static List<string> stringDictionary = new List<string>(0);
@@ -43,4 +43,4 @@ namespace FmdlTool
             return hash.ToString("x");
         } //TryGetName
     } //class
-} //namespace
+
